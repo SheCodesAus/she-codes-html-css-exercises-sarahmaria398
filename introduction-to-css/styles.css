@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
 
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Anybody', sans-serif;
     background-color: #fff;
 }
 
@@ -13,6 +13,9 @@ header {
     text-align: center;
     background-color: #6b469a;
     padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    
 }
 
 h1 {
@@ -31,12 +34,17 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 200px;
 }
 
 a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
+}
+
+nav a {
+    display: block;
 }
 
 a:hover {
@@ -63,4 +71,8 @@ footer {
     color: #fff;
 }
 
-/* Your code here */
+#img-size {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed orange;
+}
