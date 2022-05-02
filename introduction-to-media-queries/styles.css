@@ -30,3 +30,35 @@ div {
 }
 
 /*** Your code here ***/
+
+
+@media (max-width: 900px) {
+    div {
+        font-size: 1rem;
+        width: 22%;
+    }
+
+    
+    #div-3, 
+    #div-4 {
+        background-color: #9370db;
+    }
+}
+
+
+@media (max-width: 500px) {
+    div {
+        display: inline-block;
+        width: 44%;
+        font-size: 20px;
+    }
+    #div-1,
+    #div-2 {
+        background-color: #9370db;
+    }
+    #div-3,
+    #div-4 {
+        background-color: #3046ed;
+    }
+}
+
